@@ -1,14 +1,13 @@
 
 import axios from 'axios';
 import './App.css';
-import SearchBar from './Components/SearchBar';
-import HomePage from './Pages/HomePage';
-import CallApi from './CallApi';
+import MoviesData from './Components/MoviesData';
 
-function App() {
+const App = () => {
   return(
     <>
-     <HomePage/>
+    <h3>Search movies data</h3>
+     <MoviesData/>
      
     </>
   )
