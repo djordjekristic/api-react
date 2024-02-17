@@ -7,13 +7,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from './Templates/snippets/Footer';
 import Search from './Components/Search';
 
+
 const App = () => {
   return(
     <>
     <h3>Search movies data</h3>
     <Navigation/>
     <Search/>
-    <MoviesData/>
     <Footer/>
     
      
