@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MovieCard from "../Templates/snippets/movieCard";
+import MovieCard from "../Templates/snippets/MovieCard";
 
 const MoviesData = () =>{
 
